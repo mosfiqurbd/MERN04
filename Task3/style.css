@@ -15,7 +15,7 @@ body{
    padding: 0;
    width: 100%;
    background-color: rgb(224, 71, 224);
-
+   font-family: Banglafont;
    
 
 
@@ -52,3 +52,10 @@ section {
 .item img{
     width: 100%;
 }
+@font-face {
+    font-family: Banglafont;
+    src: url(./Fonts/Li\ Hasan\ Protilipi\ Unicode.ttf);
+  }
+  p{
+    font-family: Banglafont;
+  }
