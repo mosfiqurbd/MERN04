@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>coffee</title>
+
+    <!-- own css -->
+    <link rel="stylesheet" href="style.css">
+   
+
+    <!-- Bootstrap cdn link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- font awsome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- header start -->
+    <header>
+        <!-- nav start -->
+        <nav class="navbar navbar-expand-lg pt-5">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="logo_coffe (1).svg" alt="logo" class="img-fluid">
+                </a>
+        
+                <!-- Offcanvas Toggle Button -->
+                <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+        
+                <!-- Offcanvas Sidebar -->
+                <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title">
+                            <img src="" alt="">
+                        </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+                    </div>
+        
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav mx-auto mb-2 mb-lg-0 fs-5 fw-semibold text-center">
+                            <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Our Product</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Delivery</a></li>
+                        </ul>
+        
+                        <!-- Search and Cart -->
+                        <form class="d-flex mt-3 mt-lg-0">
+                            <div class="bg-white d-flex align-items-baseline p-2 rounded-5 shadow">
+                                <i class="fa-solid fa-magnifying-glass ps-3"></i>
+                                <input class="form-control border-0" type="search" placeholder="Search">
+                            </div>
+                            <button class="btn border-0" type="submit">
+                                <img src="./icons_cart.png  "alt="cart">
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- nav end -->
+
+
+        <!-- hero start -->
+         <div class="container py-4 hero-sec">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 column-1">
+                    <div class="hero-content">
+                        <h1 class="fw-semibold">
+                            Enjoy your <span>coffee</span> <br>
+                            before your activity
+                        </h1>
+
+                        <p class="pt-4 pb-2">
+                            Boost your productivity and build your <br>
+                            mood with a glass of coffee in the morning 
+                        </p>
+
+                        <div class="button-sec d-flex gap-4">
+                            <a class="btns-primary text-decoration-none px-5 rounded-5 py-3" href="#" role="button">
+                                Order now
+                                <i class="fa-solid fa-cart-shopping p-2 rounded-circle ms-2"></i>
+                            </a>
+
+                            <a class="btns-danger fw-semibold text-decoration-none px-5 rounded-5 py-3" href="#" role="button">
+                                More menu
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-12 column-2">
+                    <div class="image-sec d-flex justify-content-end z-3">
+                        <img src="./img-hero.png" alt="coffee" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+         </div>
+        <!-- hero end -->
+
+        <div class="positional-image">
+            <img src="bg_img_hero.png" alt="coffee seeds" class="img-fluid coffee-seeds">
+        </div>
+    </header>
+    <!-- header start -->
+
+    
+    <!-- card start -->
+    <div class="container-fluid seeds-container ">
+        <div class="positional-image-2">
+            <img src="bg_img_hero.png" alt="coffee seeds" class="img-fluid">
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="fw-semibold">
+                        Popular <span>Now</span>
+                    </h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container card-area">
+        <div class="row px-5">
+            <div class="col-lg-4 col-md-4 col-sm-12 cardArea-card">
+                <div class="card p-2 shadow">
+                    <div class="image-sec">
+                        <img src="./unsplash_RFHFV7lVQBY.png" class="card-img-top" alt="card 1 icon">
+
+                        <div class="rating-sec bg-white rounded-4 d-flex justify-content-center shadow">
+                            <p>4.8 <i class="fa-solid fa-star text-warning"></i></p>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between">
+                            <h5 class="card-title fw-bold">Vanilla Latte</h5>
+                            <h5 class="card-title fw-bold">21k</h5>
+                        </div>
+                      
+                        <div class="button-section d-flex justify-content-between pt-2">
+                            <div class="btn-sec">
+                                <button type="button" class="btn btn-outline-warning">Hot</button>
+                                <button type="button" class="btn btn-outline-warning">Cold</button>
+                            </div>
+
+                            <a href="#" class="text-decoration-none">
+                                <img src="./Frame 5.png" alt="cart">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-12 cardArea-card">
+                <div class="card p-2 shadow">
+                    <div class="image-sec">
+                        <img src="./img_product.png" class="card-img-top" alt="card 2 icon">
+
+                        <div class="rating-sec bg-white rounded-4 d-flex justify-content-center shadow">
+                            <p>4.8 <i class="fa-solid fa-star text-warning"></i></p>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between">
+                            <h5 class="card-title fw-bold">Espresso</h5>
+                            <h5 class="card-title fw-bold">21k</h5>
+                        </div>
+                      
+                        <div class="button-section d-flex justify-content-between pt-2">
+                            <div class="btn-sec">
+                                <button type="button" class="btn btn-outline-warning">Hot</button>
+                                <button type="button" class="btn btn-outline-warning">Cold</button>
+                            </div>
+
+                            <a href="#" class="text-decoration-none">
+                                <img src="./Frame 5.png" alt="cart">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-12 cardArea-card">
+                <div class="card p-2 shadow">
+                    <div class="image-sec">
+                        <img src="./img_product (1).png" class="card-img-top" alt="card 3 icon">
+
+                        <div class="rating-sec bg-white rounded-4 d-flex justify-content-center shadow">
+                            <p>4.8 <i class="fa-solid fa-star text-warning"></i></p>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between">
+                            <h5 class="card-title fw-bold">Hazelnut Latte</h5>
+                            <h5 class="card-title fw-bold">21k</h5>
+                        </div>
+                      
+                        <div class="button-section d-flex justify-content-between pt-2">
+                            <div class="btn-sec">
+                                <button type="button" class="btn btn-outline-warning">Hot</button>
+                                <button type="button" class="btn btn-outline-warning">Cold</button>
+                            </div>
+
+                            <a href="#" class="text-decoration-none">
+                                <img src="./Frame 5.png" alt="cart">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- card end -->
+
+
+
+    <!-- services start -->
+     <div class="container service py-5">
+        <div class="row px-4">
+            <div class="service-header">
+                <h3 class="fw-semibold pb-4">How to use delivery <span>service</span></h3>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card border-0 bg-transparent d-flex align-items-center justify-content-center text-center">
+                    <img src="image.t.png" class="card-img-top img-fluid" alt="service icon">
+                    <div class="card-body">
+                      <h5 class="card-title fw-semibold">choose your coffee</h5>
+                      <p class="card-text">there are 20+ coffees for you</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card border-0 bg-transparent d-flex align-items-center justify-content-center text-center">
+                    <img src="food-truck 1.png" class="card-img-top img-fluid" alt="service icon">
+                    <div class="card-body">
+                      <h5 class="card-title fw-semibold">we delivery it to you</h5>
+                      <p class="card-text">Choose delivery service</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card border-0 bg-transparent d-flex align-items-center justify-content-center text-center">
+                    <img src="coffee-cup 2.png" class="card-img-top img-fluid" alt="service icon">
+                    <div class="card-body">
+                      <h5 class="card-title fw-semibold">Enjoy your coffee</h5>
+                      <p class="card-text">Choose delivery service</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </div>
+    <!-- services end -->
+
+
+    <!-- About Section Start -->
+    <div class="container-fluid about">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="image-section d-flex justify-content-end">
+                        <img src="unsplash_3n3mPoGko8g.png" alt="coffee image" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-6 col-sm-12">
+                    <div class="about-content">
+                        <h3>About <span>us</span></h3>
+                        <h4>We provide quality coffee,<br> and ready to deliver.</h4>
+                        <p>
+                            We are a company that makes and distributes delicious drinks. Our main product is made with a secret recipe and available in stores worldwide.
+                        </p>
+                        <button type="button" class="btn btns-primary">Get your coffee</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About Section End -->
+
+
+
+    <!-- Special  sec start -->
+     <div class="container py-5 card-area-2">
+        <div class="row">
+            <div class="speacial-content pb-4">
+                <h3 class="fw-semibold">Special menu <span>for you</span></h3>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12 mt-3">
+                <div class="card p-3 shadow border-0 mb-2">
+                    <div class="image-sec">
+                        <img src="./img_product (2).png" class="card-img-top" alt="card 1 icon">
+
+                        <div class="rating-sec bg-white rounded-4 d-flex justify-content-center shadow">
+                            <p>4.8 <i class="fa-solid fa-star text-warning"></i></p>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between">
+                            <h5 class="card-title fw-bold">Sandwich</h5>
+                            <h5 class="card-title fw-bold">21k</h5>
+                        </div>
+                      
+                        <div class="button-section d-flex justify-content-between pt-2">
+                            <div class="btn-sec">
+                                <button type="button" class="btn btn-outline-warning">Hot</button>
+                                <button type="button" class="btn btn-outline-warning">Cold</button>
+                            </div>
+
+                            <a href="#" class="text-decoration-none">
+                                <img src="Frame 5.png" alt="cart">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12 mt-3">
+                <div class="card p-3 shadow border-0 mb-2">
+                    <div class="image-sec">
+                        <img src="./img_product (3).png" class="card-img-top" alt="card 1 icon">
+
+                        <div class="rating-sec bg-white rounded-4 d-flex justify-content-center shadow">
+                            <p>4.8 <i class="fa-solid fa-star text-warning"></i></p>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between">
+                            <h5 class="card-title fw-bold">Hot Milk</h5>
+                            <h5 class="card-title fw-bold">21k</h5>
+                        </div>
+                      
+                        <div class="button-section d-flex justify-content-between pt-2">
+                            <div class="btn-sec">
+                                <button type="button" class="btn btn-outline-warning">Hot</button>
+                                <button type="button" class="btn btn-outline-warning">Cold</button>
+                            </div>
+
+                            <a href="#" class="text-decoration-none">
+                                <img src="Frame 5.png" alt="cart">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12 mt-3">
+                <div class="card p-3 shadow border-0 mb-2">
+                    <div class="image-sec">
+                        <img src="./img_product (4).png" class="card-img-top rounded-3" alt="card 1 icon">
+
+                        <div class="rating-sec bg-white rounded-4 d-flex justify-content-center shadow">
+                            <p>4.8 <i class="fa-solid fa-star text-warning"></i></p>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between">
+                            <h5 class="card-title fw-bold">Coffee Ice Cream</h5>
+                            <h5 class="card-title fw-bold">21k</h5>
+                        </div>
+                      
+                        <div class="button-section d-flex justify-content-between pt-2">
+                            <div class="btn-sec">
+                                <button type="button" class="btn btn-outline-warning">Hot</button>
+                                <button type="button" class="btn btn-outline-warning">Cold</button>
+                            </div>
+
+                            <a href="#" class="text-decoration-none">
+                                <img src="Frame 5.png" alt="cart">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12 mt-3">
+                <div class="card p-3 shadow border-0 mb-2">
+                    <div class="image-sec">
+                        <img src="./img_product (5).png" class="card-img-top rounded-3" alt="card 1 icon">
+
+                        <div class="rating-sec bg-white rounded-4 d-flex justify-content-center shadow">
+                            <p>4.8 <i class="fa-solid fa-star text-warning"></i></p>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between">
+                            <h5 class="card-title fw-bold">Cappucino</h5>
+                            <h5 class="card-title fw-bold">21k</h5>
+                        </div>
+                      
+                        <div class="button-section d-flex justify-content-between pt-2">
+                            <div class="btn-sec">
+                                <button type="button" class="btn btn-outline-warning">Hot</button>
+                                <button type="button" class="btn btn-outline-warning">Cold</button>
+                            </div>
+
+                            <a href="#" class="text-decoration-none">
+                                <img src="Frame 5.png" alt="cart">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12 mt-3">
+                <div class="card p-3 shadow border-0 mb-2">
+                    <div class="image-sec">
+                        <img src="unsplash_SqYmTDQYMjo.png" class="card-img-top rounded-3" alt="card 1 icon">
+
+                        <div class="rating-sec bg-white rounded-4 d-flex justify-content-center shadow">
+                            <p>4.8 <i class="fa-solid fa-star text-warning"></i></p>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between">
+                            <h5 class="card-title fw-bold">Moccacinno</h5>
+                            <h5 class="card-title fw-bold">21k</h5>
+                        </div>
+                      
+                        <div class="button-section d-flex justify-content-between pt-2">
+                            <div class="btn-sec">
+                                <button type="button" class="btn btn-outline-warning">Hot</button>
+                                <button type="button" class="btn btn-outline-warning">Cold</button>
+                            </div>
+
+                            <a href="#" class="text-decoration-none">
+                                <img src="Frame 5.png" alt="cart">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12 mt-3">
+                <div class="card p-3 shadow border-0 mb-2">
+                    <div class="image-sec">
+                        <img src="img_product (6).png" class="card-img-top rounded-3" alt="card 1 icon">
+
+                        <div class="rating-sec bg-white rounded-4 d-flex justify-content-center shadow">
+                            <p>4.8 <i class="fa-solid fa-star text-warning"></i></p>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between">
+                            <h5 class="card-title fw-bold">Waffle Ice Crem</h5>
+                            <h5 class="card-title fw-bold">21k</h5>
+                        </div>
+                      
+                        <div class="button-section d-flex justify-content-between pt-2">
+                            <div class="btn-sec">
+                                <button type="button" class="btn btn-outline-warning">Hot</button>
+                                <button type="button" class="btn btn-outline-warning">Cold</button>
+                            </div>
+
+                            <a href="#" class="text-decoration-none">
+                                <img src="Frame 5.png" alt="cart">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </div>
+    <!-- Special  sec end -->
+
+<h5>What the say</h5>
+
+
+
+    <!-- footer start -->
+     <div class="container footer mt-5 mb-3">
+        <div class="row">
+            <div class="col-12">
+                <div class="footer-content">
+                    <h4 class="text-light fw-semibold">Subscribe to get 50% discount price</h4>
+    
+                    <form class="bg-white">
+                        <input type="email" placeholder="Email address" class="bg-transparent border-0 w-75 ps-2">
+                        <button type="submit" class="">Order Now</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+     </div>
+    <!-- footer end -->
+
+
+
+
+
+    <!-- Bootstrap js link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
