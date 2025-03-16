@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Mentor | E-commerce product page</title>
+
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <!-- Font Awesome link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- css style link  -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet  -->
+    <style></style>
+  </head>
+
+  <body>
+    <div class="container">
+      <!-- Header Start Hear  -->
+      <header class="header">
+        <div class="brand-nav">
+          <!-- brand  -->
+          <div class="logo">
+            <h2>Sneakers</h2>
+        </div>
+          <!-- Navigation Bar  -->
+          <nav class="navbar">
+            <ul class="nav-items">
+              <li class="nav-list">
+                <a href="" class="nav-link">Collections</a>
+              </li>
+              <li class="nav-list"><a href="" class="nav-link">Men</a></li>
+              <li class="nav-list"><a href="" class="nav-link">Women</a></li>
+              <li class="nav-list"><a href="" class="nav-link">About</a></li>
+              <li class="nav-list"><a href="" class="nav-link">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <!-- User loging  -->
+        <div class="user-login">
+          <i class="fa-solid fa-cart-shopping"></i> 
+        </div>
+      </header>
+      <!-- Header Start Hear  -->
+      <!-- Main Start Hear  -->
+      <main class="main">
+        <!-- Hero Sliding  -->
+        <hero class="hero">
+          <div class="hero-main-img">
+            <img
+              src="image-product-1.jpg"
+              alt="Photo"
+              class="hero-img"
+            />
+          </div>
+          <div class="hero-sliding-imges">
+            <img
+              src="./image-product-1.jpg"
+              alt="shoe-1"
+              class="sliding-img"
+            /><img
+              src="./image-product-2-thumbnail.jpg"
+              alt="shoe-2"
+              class="sliding-img"
+            /><img
+              src="./image-product-3-thumbnail.jpg"
+              alt="shoe-3"
+              class="sliding-img"
+            /><img
+              src="./image-product-4.jpg"
+              alt="shoe-4"
+              class="sliding-img"
+            />
+          </div>
+        </hero>
+        <!-- Hero Text Aside  -->
+        <aside class="aside">
+          <!-- Title  -->
+          <div class="title">
+            <h3 class="h3-sneaker">Sneaker Company</h3>
+            <h1 class="h1-sneaker">Fall Limited Edition <br> Sneakers</h1>
+          </div>
+          <!-- Title Body  -->
+          <div class="title-body">
+            <p class="title-para">
+              These low-profile sneakers are your perfect casual wear <br>companion.
+              Featuring a durable rubber outer sole, they’ll <br> withstand
+              everything the weather can offer.
+            </p>
+            <div class="pricing">
+              <div class="discount-price">
+                <h2 class="dis-price">$125.00</h2>
+                <p class="dis-par">50%</p>
+              </div>
+              <p class="real-price"><del>$250.00</del></p>
+            </div>
+          </div>
+          <!-- Add To Cart  -->
+          <div class="add-to-cart">
+            <div class="quantity-control">
+                <button class="count-btn">-</button>
+                <span class="quantity">1</span>
+                <button class="count-btn">+</button>
+            </div>
+            <button class="h3-add"><i class="fa-solid fa-cart-shopping"></i>Add to Cart</button>
+        </div>
+          
+            </div>
+          </div>
+        </aside>
+      </main>
+      <!-- Main End Hear  -->
+    </div>
+  </body>
+</html>
